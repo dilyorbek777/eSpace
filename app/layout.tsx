@@ -43,14 +43,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://eSpace-tourism.com"),
+  metadataBase: new URL("https://spaceed.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://eSpace-tourism.com",
+    url: "https://spaceed.vercel.app/",
     title: "eSpace Tourism - Journey to the Stars",
     description: "Experience the adventure of a lifetime with eSpace Tourism. Book your space tour and explore the cosmos.",
     siteName: "eSpace Tourism",
@@ -80,9 +80,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  verification: {
-    google: "your-google-verification-code",
   },
 };
 
