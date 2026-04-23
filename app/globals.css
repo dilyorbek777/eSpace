@@ -83,6 +83,26 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+/* Fallback colors for Tailwind classes */
+.bg-foreground { background-color: var(--foreground); }
+.text-foreground { color: var(--foreground); }
+.bg-background { background-color: var(--background); }
+.text-background { color: var(--background); }
+.bg-primary { background-color: var(--primary); }
+.text-primary { color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.text-secondary { color: var(--secondary); }
+.bg-muted { background-color: var(--muted); }
+.text-muted { color: var(--muted); }
+.bg-accent { background-color: var(--accent); }
+.text-accent { color: var(--accent); }
+.bg-card { background-color: var(--card); }
+.text-card { color: var(--card); }
+.bg-border { background-color: var(--border); }
+.text-border { color: var(--border); }
+.bg-ring { background-color: var(--ring); }
+.text-ring { color: var(--ring); }
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);

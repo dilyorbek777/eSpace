@@ -4,6 +4,8 @@ import Link from "next/link";
 import { navLinks } from "@/constants";
 import { useState, useEffect } from "react";
 
+
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [visible, setVisible] = useState(true);
